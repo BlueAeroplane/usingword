@@ -82,7 +82,6 @@ a{
 
 footer {
   padding-top: 30px;
-  background-color: #525752;
   height: 300px;
 }
 
@@ -95,4 +94,13 @@ footer {
 .f {
   height: 30px;
   width: 30px;
+}
+
+img {
+  height: 100px;
+}
+
+.wordtxt {
+  padding-left: 200px;
+  padding-right: 200px;
 }
