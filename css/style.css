@@ -103,4 +103,15 @@ img {
 .wordtxt {
   padding-left: 200px;
   padding-right: 200px;
+  line-height: 1.1;
+}
+
+.macword {
+  padding-top: 10px;
+  height: 400px;
+  background-image: url(http://www.ixtendo.com/wp-content/uploads/2012/02/photodune-5168723-working-desk-m.jpg);
+}
+
+.macwordtitle {
+  color: #fff;
 }
