@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400,700);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600,700);
+
+body{
+  font-family: 'Lato';
+  background-color: rgba(255,255,255, 0.5)
+}
+
+a{
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/* Header CSS */
+.navbar-custom{
+  background-color: white;
+}
+
+.navbar-nav{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.navbar-nav li a:hover{
+  color: rgba(163, 218, 255,0.9);
+}
+
+/* --into page CSS-- */
+.intro{
+  height: 700px;
+  background: url('http://www.meh.ro/wp-content/uploads/2011/12/meh.ro8916.jpg') center center no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+}
+.intro {
+  position: relative;
+}
+
+.intro-overlay{
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  padding-top: 10%;
+}
+
+.intro .intro-msg h1{
+  font: bold 70px 'Bitter';
+  color: #fff;
+}
+
+.intro .intro-msg a{
+  border: solid 3px #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font: bold 12px 'Raleway';
+  letter-spacing: 3px;
+  padding: 15px 25px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.intro .intro-msg a:hover,
+.intro .intro-msg a:focus,
+.intro .intro-msg a:active{
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+}
+
+/* --About me CSS-- */
+.about-me{
+  padding: 50px 0;
+  height: 855px;
+}
+
+.about-me .photo{
+  padding-top: 50px;
+}
+
+.popular {
+  padding-top: 40px;
+}
+
+footer {
+  padding-top: 30px;
+  background-color: #525752;
+  height: 300px;
+}
+
+.footer_text {
+  color: #ffffff;
+  padding-left: 70px;
+  text-align: left;
+}
+
+.f {
+  height: 30px;
+  width: 30px;
+}
