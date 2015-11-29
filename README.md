@@ -1,1 +1,1 @@
-#Just a gameing website
+#Just a gaming website
